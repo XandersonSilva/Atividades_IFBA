@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    margin: auto;
+    max-width: 1900px;
+    background-color: #181a1b;
+}
+
+
+.lik-nav-menu:hover{
+    background-color: #1f1b58;
+}
+
+.navbar-collapse {
+    background-color:#322c91fd;
+}
+.container-fluid{
+    z-index: 1;
+    gap: 1em;
+}
+#pesquisa-container{
+    background-color:  #1f1b58;
+    color: #ffffff;
+    border-top-right-radius:  16px;
+    border-bottom-right-radius: 16px;
+    border-left: 30% solid #1f1b58 ;
+    width: 80%;
+    margin: 50px 0;
+}
+
+#Pesquisa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+
+
+#pesqBtn{
+    width: 24px;
+    fill: #fff;
+}
+
+#Pesquisa > p{
+    margin: 0;
+}
+
+#Pesquisa> form{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    gap: 5px;
+    align-items: stretch;
+}
+
+.cidadeINPT{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+.cidadeINPT > p {
+    margin: 0;
+}
+
+.cidadeINPT > input{
+
+    margin: 00px 07px;
+}
+
+#cidadeDest{
+    display: none;
+}
+
+#busca{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 70%;
+    color: #fff;
+    background-color: #2243c9e0;
+    border-top-color:    #2A43A8;
+    border-left-color:   #2A43A8;
+    border-bottom-color: #552AA8;
+    border-right-color:  #552AA8;
+    padding: 0 5%;
+
+}
+#busca>p{
+    margin: 0;
+}
+
+.cidade{
+    font-size: 12px;
+    max-width: 50%;
+}
+
+#carrossel_B{
+    height: 260px;
+    display: flex;
+    align-items: center;
+}
+
+#carrossel_B img{
+    object-fit: cover;
+    height: 260px;
+}
+
+.titulo_destaque{
+    text-transform: uppercase;
+}
+
+.bg-body-tertiary {
+    background-color: none;
+}
+
+*:focus{
+    outline: 2px solid #322C91;
+}
+header{
+    background-color: #322c91fd;
+}
+nav{
+    width: 100%;
+    font-family: Geneva, Verdana, sans-serif;
+    color: white;
+    max-height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo_p{
+    text-align: center;
+    color: #fff;
+    background-color: #1f1b58;
+    padding: 1%;
+    text-transform: uppercase;
+}
+
+span {
+    text-align: center;
+    padding: 1%;
+    text-transform: uppercase;
+}
+span:hover{
+    color: #fff;
+    background-color: #1f1b58;
+}
+
+hr{
+    margin-top: 1px;
+}
+h1{
+    margin: 0;
+}
+#menuIco{
+    padding-left: 8px;
+    width: auto;
+    height: 32px;
+    margin: 2px;
+}
+#logotipo{
+    padding: 0 8px;
+    width: auto;
+    max-height: 20px;
+}
+
+#entrar{
+    background-color: #1f1b58;
+}
+
+.form-contato{
+    background-color: #1f1b58;
+    padding: 2%;
+    border-radius: 16px;
+    margin: auto;
+    color: #fff;
+    border: #ffffff solid 15px;
+}
+
+article>h4{
+    color: #fff;
+    background-color: #1f1b58;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 5rem;
+}
+
+
+#classifc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#classifc>p{
+    margin:  12px 12px 12px 0;
+
+}
+
+#Estrela{
+    width: 32px;
+    height: 32px;
+    margin-left: 2px;
+    user-select: none;
+}
+
+#diaria> p{
+    margin:  7px 0;
+}
+
+
+/* Estilo do Select */
+select {
+   appearance: none;
+   -webkit-appearance: none; 
+   -moz-appearance: none; 
+    padding: 3px;;
+    border: 1px solid #6a5acd; /* Cor roxa */
+    border-radius: 5px;
+    background-color: #f8f8f8; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    cursor: pointer;
+    outline: none;
+}
+
+/* Estilo das Opções */
+select option {
+    background-color: #424242; /* Cor de fundo das opções */
+    color: #fff; /* Cor do texto das opções */
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+/* Estilo das Opções no Hover */
+select option:hover {
+    background-color: #2243c9e0; /* Cor de fundo das opções ao passar o mouse */
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 9px;
+    height: 4px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #2c2b2b;
+    background: #2c2b2b;
+    margin-left: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #0b36cd;
+    border-radius: 10px;
+    transition: all .6s;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #261eb3;
+}
+
+.footer {
+    background-color: #1f1b58;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-title {
+    color: #552AA8;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-link {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #552AA8;
+  }
+  
+  .footer-social-icon {
+    font-size: 1.5rem;
+    color: #ccc;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social-icon:hover {
+    color: #552AA8;
+  }
+  
+  .footer-text {
+    color: #322C91;
+  }
+
+
+
+@media (max-width: 500px) {
+    #pesquisa-container{
+        margin:0 ;
+        border: none ;
+        width: 100%;
+        border-radius: 0;
+    }
+    #Pesquisa{
+        width: 80%;
+    }
+}
